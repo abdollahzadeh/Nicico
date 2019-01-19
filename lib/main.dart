@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
      return new SplashScreen(seconds: 14,navigateAfterSeconds:new AfterSplash(),
        backgroundColor: Colors.white,
-       image:new Image.asset('nicico-logo.png'),
+       image:new Image.asset('images/nicico-logo.png'),
        title: new Text('کمی صبر نماید'),
      );
   }
