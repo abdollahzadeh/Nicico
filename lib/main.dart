@@ -9,8 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
-        primarySwatch: Colors.purple,
+      primarySwatch: Colors.purple,
       ),
       home: MyHomePage(),
     );
@@ -28,10 +27,15 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
-     return new SplashScreen(seconds: 14,navigateAfterSeconds:new AfterSplash());
+     return new SplashScreen(seconds: 14,navigateAfterSeconds:new AfterSplash(),
+       backgroundColor: Colors.white,
+       image:new Image.asset('nicico-logo.png'),
+       title: new Text('کمی صبر نماید'),
+     );
   }
 }
-class AfterSplash extends StatelessWidget {
+class AfterSplash extends StatelessWidget
+{
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
