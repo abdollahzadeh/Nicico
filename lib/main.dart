@@ -29,8 +29,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
      return new SplashScreen(seconds: 14,navigateAfterSeconds:new AfterSplash(),
        backgroundColor: Colors.white,
-       image:new Image.asset('images/nicico-logo.png'),
-       title: new Text('کمی صبر نماید'),
+       image:new Image.asset('assets/images/nicico-logo.png'),
+       title: new Text(''),
+       photoSize: 100.0
+
+       
      );
   }
 }
@@ -40,7 +43,7 @@ class AfterSplash extends StatelessWidget
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-          title: new Text("Welcome In SplashScreen Package"),
+          title: new Text("معاونت"),
           automaticallyImplyLeading: false
       ),
       body: new Center(
@@ -52,5 +55,5 @@ class AfterSplash extends StatelessWidget
 
       ),
     );
-  }
+  }تو
 }
