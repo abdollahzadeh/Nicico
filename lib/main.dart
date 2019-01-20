@@ -55,5 +55,5 @@ class AfterSplash extends StatelessWidget
 
       ),
     );
-  }تو
+  }
 }
