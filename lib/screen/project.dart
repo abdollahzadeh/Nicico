@@ -30,11 +30,11 @@ class ProjectList extends State<Project> {
           children: <Widget>[
                new Card(child: new Column( mainAxisSize: MainAxisSize.min,children: <Widget>[
                   new Text("اسید سرچشمه",style:new TextStyle(fontFamily:'Vazir',fontSize: 12),),
-                  new Image.asset('assets/images/logo.jpg')
+                  new Image.asset('assets/images/Sar.png')
                ],)),
                new Card(child: new Column( mainAxisSize: MainAxisSize.min,children: <Widget>[
                   new Text("اسید خاتون آباد",style:new TextStyle(fontFamily:'Vazir',fontSize: 12),),
-                  new Image.asset('assets/images/logo.jpg')
+                  new Image.asset('assets/images/Kh.png')
                ],)),
                new Card(child: new Column( mainAxisSize: MainAxisSize.min,children: <Widget>[
                   new Text("توسعه ذوب",style:new TextStyle(fontFamily:'Vazir',fontSize: 12),),

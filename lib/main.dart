@@ -53,9 +53,9 @@ class AfterSplash extends StatelessWidget
           bottom: new TabBar(labelStyle: TextStyle(fontFamily: 'Vazir'),tabs:[
             new Tab(text: 'پروژه ها',),
             new Tab(text: 'اخبار',),
-            new Tab(text: 'مزایده ها',),
-            new Tab(text: 'مناقصه ها',),
-            new Tab(text: 'فروشگاه',),
+            new Tab(text: 'گزارشات تصویری',),
+            new Tab(text: 'اطلاعیه ها',),
+            new Tab(text: 'پورتال',),
 
           ],isScrollable: true,indicatorColor: Colors.blue,),
         ),
