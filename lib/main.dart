@@ -46,7 +46,6 @@ class AfterSplash extends StatelessWidget
         Scaffold(appBar:new AppBar(
           title: new Text('مجتمع مس سرچشمه - معاونت توسعه و برنامه ریزی',style: new TextStyle(fontFamily: 'Vazir',fontSize: 12),),
           centerTitle: true,
-          leading: new Icon(Icons.arrow_back),
           actions: <Widget>[
             new IconButton(icon:new Icon(Icons.menu), onPressed:(){Scaffold.of(context).openDrawer();})
           ],
