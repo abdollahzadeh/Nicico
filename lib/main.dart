@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screen/project.dart';
 import 'package:splashscreen/splashscreen.dart';
 void main() => runApp(MyApp());
 
@@ -43,7 +44,7 @@ class AfterSplash extends StatelessWidget
   Widget build(BuildContext context) {
    return new DefaultTabController(length: 8,initialIndex: 1, child:
         Scaffold(appBar:new AppBar(
-          title: new Text('مجتمع مس سرچشمه - معاونت توسعه و برنامه ریزی',style: new TextStyle(fontFamily: 'Vazir'),),
+          title: new Text('مجتمع مس سرچشمه - معاونت توسعه و برنامه ریزی',style: new TextStyle(fontFamily: 'Vazir',fontSize: 12),),
           centerTitle: true,
           leading: new Icon(Icons.arrow_back),
           actions: <Widget>[
@@ -64,7 +65,7 @@ class AfterSplash extends StatelessWidget
         ), 
          body:
          TabBarView(children:<Widget> [
-          new Text('ffff'),
+          new Project(),
           new Text('oppp'),
           new Text('mnnmn'),
           new Text('099090'),
